@@ -23,4 +23,4 @@ class Calculator:
 
     @staticmethod
     def random_number(a, b):
-        return random.randint(a, b)
+        return random.randint(min(a, b), max(a, b))
